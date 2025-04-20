@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="personalinfo.css">
+    <title>Personalinfo</title>
+</head>
+<body>
+    <section class="bigcontainer">
+
+      <div class="container">
+
+    <h2>Personal information</h2>
+    <form class="formm">
+    <label for="name">Name<span>*</span>
+    </label>
+    <input
+     placeholder="Enter full name"
+      id="name" 
+      type="text"
+       required/>
+    <label for="email">E-mail<span>*</span></label>
+    <input type="email" placeholder="Enter G-mail" id="email">
+    <label>Area<span>*</span></label>
+    <input type="text" placeholder="Enter your Area" required />
+    <label>City<span>*</span></label>
+    <input type="text" placeholder="Enter your City" required/>
+    <label>State<span>*</span></label><select id="state">
+        <option value="taminadu">Tamilnadu</option>
+        <option value="others">Other state</option>
+    </select>
+        </form>
+      </div>
+</section>
+
+<div class="container">
+    <h2>Car details</h2>
+    <form>
+        <label for="name">Choosen Car Name<span>*</span>
+        </label>
+        <input placeholder="Enter the choosed car name" id="name" type="text" required>
+        <label for="driver">Driver(Needed/no Needed)<span>*</span>
+        </label>
+        
+    
+        <input type="email" placeholder="Enter required or not required" id="email">
+        <label>Receiving Address<span>*</span></label>
+        <input type="text" placeholder="Enter where you gonna get the car" required>
+        <label>Days<span>*</span></label>
+        <input type="number" placeholder="Enter how many day you need the car" required>
+        <label>When<span>*</span></label>
+        <input type="date" placeholder="Enter how many day you need the car" required>
+        <label>Color<span>*</span></label>
+        <select id="Color">
+            <option value="">Select a color</option>
+            <option value="red">Red</option>
+            <option value="white">White</option>
+            <option value="black">Black</option>
+            <option value="brown">Maroon</option>
+            <option value="silver">silver</option>
+            <option value="anycolor">Anycolor</option>
+
+        </select>
+        <label>Second Preferred Color:</label>
+  <select id="second_color">
+    <option value="">Select a color</option>
+    <option value="red">Red</option>
+    <option value="white">White</option>
+    <option value="black">Black</option>
+    <option value="brown">Maroon</option>
+    <option value="silver">Silver</option>
+    <option value="anycolor">Any color</option>
+  </select>
+
+            </form>
+            <div class="button-container">
+            <button type="submit">submit</button>
+            <button type="reset" onclick="location.href='personalinfo.html'">Reset</button>
+            <button type="reset" onclick="location.href='product.html'">Back</button>
+            </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+.hr-two{
+margin-top: 50px;
+}
+p{
+    text-align: center;
+}
+span{
+    color: red;
+}
+li{
+    list-style-type: none;
+    
+
+}
+
+ul{
+    display: flex;
+    height: 50px;
+    margin-top:1px;
+   
+}
+li a:hover{ color: chocolate;
+    background-color: azure;
+    font-size: medium;
+    
+}
+nav ul{     margin-left: 5rem;
+            list-style: none;
+
+            }
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 15px;
+}   
+span{
+    color: red;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+}
+nav li a:hover{
+color:aliceblue;
+background-color: black;
+transition: 0.3s;
+}
+ul{
+    flex:2;
+    order:2;
+}
+button:hover{
+    transform: scale(1.1);
+    color: yellow;
+    background-color: gray;
+}
+.header{
+    background-color: rgb(235, 235, 99);
+
+}
+.main-container{
+    display: flex;
+    justify-content: flex-start;
+    
+    margin: 15px 40px;
+    flex-wrap: wrap;
+}
+.a{
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+    width: 21%;
+    height: 50vh;
+    margin: 5em;
+    background-color: white;
+    border-radius: 3px solid black;
+    box-shadow: rgb(179, 174, 174);
+    transition: all 0.35s ease;
+    animation: populate 0.5s ease-out normal backwards;
+}
+.a:hover{
+    transform: scale(1.05);
+    z-index: 1;
+    box-shadow: rgb(77, 73, 73);
+}
+
+@keyframes populate{
+    0%{
+        transform: scale(0);
+
+    }
+}
+
+.aa{
+    font-size: 1.8em;
+
+}
+.search-container{
+    position: absolute;
+    height: 45px;
+    max-width: 650px;
+    background: #fff;
+    box-shadow: rgb(123, 119, 119);
+    align-items: center;
+}
+.search-container i{
+    position: absolute;
+    left: 20px;
+    font-size: 16px;
+    color: #707070;
+
+}
+#search-input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 15px;
+    padding-left: 50px;
+    background-color: transparent;
+}
+h4{
+    background-color: rgb(182, 182, 133);
+    align-items: center;
+    text-align: center;
+    width: 70px;
+    color: rgb(131, 55, 55);
+}
+.cardet{
+    display: flex;
+    padding: 3px;
+
+}
+.cardet p{
+    margin-left: 6px;
+}
+.rentbut{
+    background: #3a414d;
+    color:whitesmoke;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    border-radius: 5px;
+    box-shadow: #4e5562;
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+    margin-top: 30px;
+    display: block;
+ }

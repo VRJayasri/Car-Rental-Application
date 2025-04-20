@@ -1,0 +1,237 @@
+body {
+	margin: 0;
+	padding: 0;
+    background-color: black;
+}
+
+nav>h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60pt;
+    color: rgb(217, 221, 210);
+    text-align: center;
+}
+nav{
+    width: 100%;
+    height: 40pt;
+}
+ header>p{
+    font-family:fantasy;
+    color: rgb(174, 184, 166);
+    text-align:center;
+    font-size: 20pt;
+ }
+ #headd{
+    background-image: url(images/home.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+}
+
+ 
+ button{
+    background: #3a414d;
+    color:whitesmoke;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    border-radius: 5px;
+    box-shadow: #4e5562;
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+    margin: 0 auto;
+    display: block;
+ }
+ 
+#brands{
+        
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #brands >h1{
+        text-align: center;
+        margin: 5px;
+        line-height: 40px;
+        font-size: 20px;
+        width: 15%;
+        border: solid black 2px;
+        background-color: rgb(159, 150, 127);
+
+    }
+   
+    footer{
+        background-color: #1b1b1b;
+        height: 40vh;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        color: rgb(134, 142, 148);
+   
+    }
+   .container>h2{
+    color: rgb(175, 173, 116);
+    margin-left: 40pt;
+   }
+    footer>.container{
+        background-color: #242424;
+        margin: 10px;
+        width: 33%;
+    height: 30vh;
+            text-align: left;  
+    }
+    pre{
+        font-size: 15px;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+   
+    /* Call to Action Button */
+    button {
+        background: #3a414d;
+        color: whitesmoke;
+        text-transform: uppercase;
+        padding: 20px 30px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        margin: 30px auto;
+        display: block;
+        font-size: 16px;
+    }
+    
+    button:hover {
+        background-color: #2d323b;
+        transform: scale(1.05);
+    }
+    
+    /* Available Brands */
+    article h1 {
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(21, 21, 20);
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    article h2 {
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(230, 230, 18);
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    
+    #brands {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+        gap: 10px;
+    }
+    
+    #brands h1 {
+        text-align: center;
+        font-size: 18px;
+        width: 15%;
+        min-width: 100px;
+        padding: 10px;
+        border: 2px solid black;
+        background-color: rgb(159, 150, 127);
+        border-radius: 8px;
+        transition: 0.3s ease;
+    }
+    
+    #brands h1:hover {
+        background-color: #b8b098;
+        transform: scale(1.05);
+    }
+    
+    /* Footer Section */
+    footer {
+        background-color: #1b1b1b;
+        color: rgb(134, 142, 148);
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
+    }
+    
+    footer .container {
+        background-color: #242424;
+        margin: 10px;
+        width: 30%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    
+    footer .container h2 {
+        color: rgb(175, 173, 116);
+        margin-left: 10px;
+    }
+    
+    footer pre {
+        font-size: 14px;
+        color: #ccc;
+    }
+    
+    /* Social Icons */
+    #icons a {
+        margin: 10px;
+        font-size: 24px;
+        text-decoration: none;
+    }
+    
+    .fa-facebook {
+        color: white;
+        background-color: blue;
+        padding: 8px;
+        border-radius: 50%;
+    }
+    
+    .fa-twitter {
+        color: white;
+        background-color: rgb(97, 144, 231);
+        padding: 8px;
+        border-radius: 50%;
+    }
+    
+    .fa-instagram {
+        background-image: linear-gradient(45deg, #f09433 0%, #e6683c 25%, 
+            #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+    }
+    
+    /* Copyright Section */
+    #Copyrights {
+        color: gray;
+        text-align: center;
+        padding: 15px;
+    }
+    
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        #brands h1 {
+            width: 40%;
+        }
+    
+        footer {
+            flex-direction: column;
+        }
+    
+        footer .container {
+            width: 90%;
+        }
+    }
+    
+    
+    
+    
+ 
