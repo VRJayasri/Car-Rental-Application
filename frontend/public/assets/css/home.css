@@ -1,0 +1,179 @@
+
+
+.bg-image {
+    background-size:cover;
+    background-image: url(images/home.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.intro-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+ .ziyoname{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(217, 227, 197);
+    font-size: 60pt;
+}
+ .quote{
+    font-family:fantasy;
+    color: rgb(17, 19, 15);
+    text-align:center;
+    font-size: 20pt;
+ }
+ #headd{
+    background-size: cover;
+    width: 100%;
+
+
+    text-align: center;
+}
+
+    .foot {
+        
+        color: rgb(134, 142, 148);
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
+
+    }
+   .ccontainer h2{
+    color: rgb(175, 173, 116);
+    margin-left: 10pt;
+   }
+    .foot .ccontainer{
+        
+        margin: 10px;
+        width: 33%;
+        height: 30vh;
+        text-align: left;  
+        border-radius: 20px;
+        background-color: rgb(102, 109, 88);;
+        padding: 15px;
+        box-sizing: border-box;
+
+    }
+   
+
+.homebutt {
+        background: rgb(94, 99, 84);
+        color: whitesmoke;
+        text-transform: uppercase;
+        padding: 20px 30px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        margin: 30px auto;
+        display: block;
+        font-size: 16px;
+        width: 360px;
+    }
+    
+    .homebutt:hover {
+        background-color: #4b5316;
+        transform: scale(1.05);
+    }
+    
+    
+    .brandsname h1 {
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(21, 21, 20);
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .brandsname h2 {
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(194, 182, 153);
+        text-shadow: 
+    -1px -1px 0 white,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+    #brands {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+        gap: 10px;
+        margin-bottom: 100px;
+    }
+    
+    #brands h1 {
+        text-align: center;
+        font-size: 18px;
+        width: 15%;
+        min-width: 100px;
+        padding: 10px;
+        border: 2px solid rgb(53, 117, 65);
+        background-color: #c3ae6f;
+        border-radius: 8px;
+        transition: 0.3s ease;
+    }
+
+   
+    
+    
+    
+    foot .ccontainer h2 {
+    
+        margin-left: 5px;
+    }
+    
+    
+
+    #icons a {
+        margin: 10px;
+        font-size: 24px;
+        text-decoration: none;
+    }
+    
+    .fa-facebook {
+        color: white;
+        background-color: blue;
+        padding: 8px;
+        border-radius: 50%;
+    }
+    
+    .fa-twitter {
+        color: white;
+        background-color: rgb(97, 144, 231);
+        padding: 8px;
+        border-radius: 50%;
+    }
+    
+    .fa-instagram {
+        background-image: linear-gradient(45deg, #f09433 0%, #e6683c 25%, 
+            #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+    }
+
+    #Copyrights {
+        color: rgb(17, 17, 17);
+        text-align: center;
+        padding: 15px;
+    }
+    
+
+    
+    
+ 

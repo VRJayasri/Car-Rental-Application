@@ -1,0 +1,122 @@
+
+.containeer {
+  width: 320px;
+  display: grid;
+  backdrop-filter: blur(25px);
+  box-shadow: 0px 0px 30px 20px rgba(82, 82, 79,45);
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  
+}
+.containeer label {
+  margin-bottom: 10px;
+}
+
+.containeer .loginbut {
+ 
+  padding: 20px;
+  background-color:rgb(125, 114, 70);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 60px;
+  width: 100px;
+  font-size: 18px;
+  margin-left: 70px;
+}
+
+  .bg {
+    width: 100vw;
+    height: 100vh;
+    background: url("images/logincar.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ltitle {
+    margin-bottom: 16px;
+    font-size: 40px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .inputboxx {
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+    height: 40px;
+  }
+  
+  
+  .inputboxx input {
+    width: 100%;
+    border-radius: 10px 16px 10px 18px;
+    outline: none;
+    color: rgb(186, 202, 208);
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.25s;
+    caret-color: rgb(49, 80, 10);
+    background: rgba(255, 255, 255, 0.1);
+    border: 3px solid transparent;
+    text-align: left;
+  }
+  
+  .inputboxx input:focus {
+    border: 3px solid rgba(12, 11, 11, 0.25);
+  }
+  
+  .inputboxx input::placeholder {
+    color: rgba(165, 158, 158, 0.75);
+  }
+  .inputboxx input::-ms-reveal {
+    filter: invert(100%);
+  }
+  .Forgott {
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    color: rgb(145, 212, 189);
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .Forgott:hover {
+    text-decoration: underline;
+  }
+  
+  .Forgott h5 {
+    font-weight: normal;
+  }
+  
+  .loginbut {
+    background: #3a414d;
+    color: whitesmoke;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    border-radius: 5px;
+    box-shadow: #686d76;
+    cursor: pointer;
+    
+  }
+  
+  .notacc {
+    font-weight: normal;
+    margin-top: 10px;
+    color: rgb(135, 169, 158);
+  }
+  
+  .notacc > a {
+    color: aliceblue;
+  }
+  
+  

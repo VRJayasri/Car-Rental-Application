@@ -1,0 +1,61 @@
+.orderpage{
+    background-color: rgba(255, 255, 0, 0.241);
+    height: 100vh;
+}
+.orderlist {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .orderlist li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .orderlist li a:hover {
+    color: #ff0099;
+  }
+  .ordertable{
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 50px;
+    margin-left: 100px;
+    box-shadow: 0 0 10px yellowgreen;
+    width: 75%;
+
+  }
+  .ordertable thead{
+    text-align: left;
+  }
+  .ordertable tbody{
+    text-align: left;
+  }
+  .removebtn{
+    background-color: rgb(190, 79, 79);
+    width: 80px;
+    height: 40px;
+    color: aliceblue;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  .editbtn{
+    background-color: rgb(115, 204, 134);
+    width: 80px;
+    height: 40px;
+    color: aliceblue;
+    border-radius: 10px;
+  }
+  .para{
+    text-align: center;
+    
+  }
+ 

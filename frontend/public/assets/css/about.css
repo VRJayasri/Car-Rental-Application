@@ -1,0 +1,68 @@
+/* AboutUs.css */
+.aboutpage{
+    
+    width: 100vw;
+    height: 100vh;
+    background: url("https://images.pexels.com/photos/55787/pexels-photo-55787.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-container {
+    backdrop-filter: blur(25px);
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 30px 20px rgba(82, 82, 79,45);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+  .about-container .para1{
+    color: whitesmoke;
+  }
+  .about-container .para2{
+    color: rgb(194, 187, 187);
+  }
+  
+  
+  .about-container h1 {
+    font-size: 2.5rem;
+    color: #d2e9f1;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .about-container .heaaad {
+    font-size: 1.8rem;
+    margin: 20px 0 10px;
+    color: #8441a9;
+  }
+  
+  .about-container p {
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .about-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-container ul li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .about-container ul li::before {
+    content: "✔️";
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
