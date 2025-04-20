@@ -4,7 +4,7 @@ import Login from './pages/Login'
 import Personalinfo from './pages/Personalinfo'
 import Product from './pages/Product'
 import Register from './pages/Register'
-import Signup from './pages/Signup'
+
 import Contact from './pages/Contact'
 import Myorder from './pages/Myorder'
 import About from './pages/About'
@@ -18,7 +18,6 @@ function App() {
       <Route path='/Personalinfo' element={<Personalinfo/>}/>
       <Route path='/Product' element={<Product/>}/>
       <Route path='/Register' element={<Register/>}/>
-      <Route path='/Signup' element={<Signup/>}/>
       <Route path='/Contact' element={<Contact/>}/>
       <Route path='/Myorder' element={<Myorder/>}/>
       <Route path ='/About' element={<About/>}/>
